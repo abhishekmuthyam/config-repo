@@ -1,17 +1,17 @@
 @ECHO OFF
-FOR /F "tokens=1,2 delims==" %%A IN (C:/Users/muthyama/build/%DEPLOY_ENV%_PCF.properties) DO (
+FOR /F "tokens=1,2 delims==" %%A IN (https://github.com/abhishekmuthyam/config-repo/blob/master/DEV1_PCF.properties) DO (
     IF "%%A"=="API_URL" SET API_URL=%%B 
 )
-FOR /F "tokens=1,2 delims==" %%A IN (C:/Users/muthyama/build/%DEPLOY_ENV%_PCF.properties) DO (
+FOR /F "tokens=1,2 delims==" %%A IN (https://github.com/abhishekmuthyam/config-repo/blob/master/DEV1_PCF.properties) DO (
     IF "%%A"=="USER_NAME" SET USER_NAME=%%B 
 )
-FOR /F "tokens=1,2 delims==" %%A IN (C:/Users/muthyama/build/%DEPLOY_ENV%_PCF.properties) DO (
+FOR /F "tokens=1,2 delims==" %%A IN (https://github.com/abhishekmuthyam/config-repo/blob/master/DEV1_PCF.properties) DO (
     IF "%%A"=="PASSWORD" SET PASSWORD=%%B
 )
-FOR /F "tokens=1,2 delims==" %%A IN (C:/Users/muthyama/build/%DEPLOY_ENV%_PCF.properties) DO (
+FOR /F "tokens=1,2 delims==" %%A IN (https://github.com/abhishekmuthyam/config-repo/blob/master/DEV1_PCF.properties) DO (
     IF "%%A"=="ORGANIZATION" SET ORGANIZATION=%%B
 )
-FOR /F "tokens=1,2 delims==" %%A IN (C:/Users/muthyama/build/%DEPLOY_ENV%_PCF.properties) DO (
+FOR /F "tokens=1,2 delims==" %%A IN (https://github.com/abhishekmuthyam/config-repo/blob/master/DEV1_PCF.properties) DO (
     IF "%%A"=="SPACE" SET SPACE=%%B
 )
 
